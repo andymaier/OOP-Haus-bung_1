@@ -41,48 +41,18 @@ Optimierungen:
 ├── Aufgaben.pdf
 ├── pom.xml
 ├── README.md
-├── src
-│   ├── main
-│   │   └── java
-│   │       └── com
-│   │           └── judy
-│   │               ├── Aufgabe1.java
-│   │               ├── Aufgabe2.java
-│   │               ├── Aufgabe2Test.java
-│   │               ├── In.java
-│   │               └── Out.java
-│   └── test
-│       └── java
-│           └── com
-│               └── judy
-│                   └── Aufgabe1Test.java
-└── target
-    ├── classes
-    │   └── com
-    │       └── judy
-    │           ├── Aufgabe1.class
-    │           ├── Aufgabe2.class
-    │           ├── Aufgabe2Test.class
-    │           ├── In.class
-    │           └── Out.class
-    ├── generated-sources
-    │   └── annotations
-    ├── generated-test-sources
-    │   └── test-annotations
-    ├── maven-status
-    │   └── maven-compiler-plugin
-    │       ├── compile
-    │       │   └── default-compile
-    │       │       ├── createdFiles.lst
-    │       │       └── inputFiles.lst
-    │       └── testCompile
-    │           └── default-testCompile
-    │               ├── createdFiles.lst
-    │               └── inputFiles.lst
-    ├── surefire-reports
-    │   ├── com.judy.Aufgabe1Test.txt
-    │   └── TEST-com.judy.Aufgabe1Test.xml
-    └── test-classes
-        └── com
-            └── judy
-                └── Aufgabe1Test.class
+└── src
+    ├── main
+    │   └── java
+    │       └── com
+    │           └── judy
+    │               ├── Aufgabe1.java
+    │               ├── Aufgabe2.java
+    │               ├── Aufgabe2Test.java
+    │               ├── In.java
+    │               └── Out.java
+    └── test
+        └── java
+            └── com
+                └── judy
+                    └── Aufgabe1Test.java
