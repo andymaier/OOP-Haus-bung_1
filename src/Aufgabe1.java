@@ -1,3 +1,5 @@
+import java.io.IOException;
+
 /*  Funktion des Programms (ab der Main- Methode):
 1. Die Variable int mit dem Namen “numberofOutputs” wird hier deklariert.
 -> Sie wird verwendet um Anzahl der Ausgaben, die der Benutzer eingibt, zu speichern
@@ -15,18 +17,46 @@
 - in und out java datei reingeladen 
 - variable j in i umbenannt */
 
-
-
+/**
+ * Dies ist die Klasse Aufgabe1.
+ * Sie enthält die main-Methode. 
+ */
 public class Aufgabe1 {
 
-	public static void main(String[] args) {
+	/**
+	 * Diese Methode ist der Einstiegspunkt des Programms.
+	 * @param args
+	 * @throws IOException
+	 */
+	public static void main(String[] args) throws IOException {
+		int numberOfOutputs = getUserInput();
+		printBasedOnUserInput(numberOfOutputs);
+	}
+
+	/**
+	 * Diese Methode liest die Anzahl der Ausgaben ein.
+	 * Die IOException wird geworfen, wenn ein Fehler beim Lesen der Eingabe auftritt.
+	 * Das Einlesen erfolgt über die System.in.read()-Methode.
+	 * @return
+	 * @throws IOException
+	 */
+	private static int getUserInput() throws IOException {
 		int numberOfOutputs;
-		Out.print ("Please enter the number of outputs: ");
-		numberOfOutputs = In.readInt();
+		System.out.print("Please enter the number of outputs: ");
+		numberOfOutputs = System.in.read();
+		return numberOfOutputs;
+	} 
+
+	/**
+	 * Diese Methode gibt die Ausgaben aus.
+	 * Dies erfolgt in einer Schleife, die so oft durchlaufen wird, wie der Benutzer eingegeben hat.
+	 * @param numberOfOutputs
+	 */
+	private static void printBasedOnUserInput(int numberOfOutputs) {
 		for (int i = 1; i <= numberOfOutputs; i++) {
-		Out.print("Output number ");
-		Out.print(i);
-		Out.println(": Hello World!");
-	   } // for
-	  } // main
-	 } // MyFirstProgram
+			System.out.print("Output number ");
+			System.out.print(i);
+			System.out.print(": Hello World!");
+		}
+	}
+}

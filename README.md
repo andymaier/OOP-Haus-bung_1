@@ -22,3 +22,15 @@ Testen Sie das Programm mit verschiedenen Eingabewerten. Können Sie Fehlfunktio
 
 Abzugeben ist ein kompilierbares und korrektes Programm. Ergänzen Sie dieses um Java-Kommentare mit einer kurzen Funktionsbeschreibung des Programms. ```
 
+Check:
+- Compiler hat keine Fehler -> OK
+- Fehlfunktion? -> OK, das war wahrscheinlich der falsche Datentyp
+- Funktion des Programms beschreiben -> das habe ich den Javadocs gemacht
+
+Optimierungen: 
+- Formatierung war nicht ganz korrekt. siehe Aufgabe 1 Klassen
+- einzelne Methoden rausgezogen für eine bessere Strukturierung
+- Abkürzung ausgeschrieben Out -> System.out...
+- Abkürzung ausgeschrieben In -> System.in...
+- Exception bei System.in... hinzugenommen für die Methoden Signatur
+- Java Kommentare -> über die Methoden hinzugefügt.
