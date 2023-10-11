@@ -1,4 +1,4 @@
-package com.judy.myapp;
+package com.judy;
 import java.io.*;
 import java.util.LinkedList;
 

@@ -1,4 +1,4 @@
-package com.judy.myapp;
+package com.judy;
 
 import java.io.IOException;
 
@@ -42,7 +42,7 @@ public class Aufgabe1 {
 	 * @return
 	 * @throws IOException
 	 */
-	private static int getUserInput() throws IOException {
+	public static int getUserInput() throws IOException {
 		int numberOfOutputs;
 		Out.print("Please enter the number of outputs: ");
 		numberOfOutputs = In.read();
@@ -54,7 +54,7 @@ public class Aufgabe1 {
 	 * Dies erfolgt in einer Schleife, die so oft durchlaufen wird, wie der Benutzer eingegeben hat.
 	 * @param numberOfOutputs
 	 */
-	private static void printBasedOnUserInput(int numberOfOutputs) {
+	public static void printBasedOnUserInput(int numberOfOutputs) {
 		for (int i = 1; i <= numberOfOutputs; i++) {
 			Out.print("Output number ");
 			Out.print(i);

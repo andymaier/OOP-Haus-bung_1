@@ -1,4 +1,4 @@
-package com.judy.myapp;
+package com.judy;
 
 public class Aufgabe2Test {
     
