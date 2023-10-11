@@ -34,3 +34,20 @@ Optimierungen:
 - Abkürzung ausgeschrieben In -> System.in...
 - Exception bei System.in... hinzugenommen für die Methoden Signatur
 - Java Kommentare -> über die Methoden hinzugefügt.
+- Test Klasse hinzugefügt mit einer Maven Projektstruktur. Maven ist ein Abhängigkeitstool wie npm in javascript. maven strukturiert auch das Projekt an sich. Die Strutkr eines mavenn projekts ist dann so:
+
+my-app/
+|-- pom.xml
+`-- src
+    |-- main
+    |   `-- java
+    |       `-- com
+    |           `-- example
+    |               `-- myapp
+    |                   `-- App.java
+    `-- test
+        `-- java
+            `-- com
+                `-- example
+                    `-- myapp
+                        `-- AppTest.java

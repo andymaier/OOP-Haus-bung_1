@@ -1,3 +1,4 @@
+package com.judy.myapp;
  /* Funktionsbeschreibung: 
 Das Programm erstellt ein Angebot, basiert auf den vom Benutzer eingegebenen Buchungsdaten. Es gliedert sich in 3 Hauptteile: Eingabe, Berechnung und Ausgabe. 
 1. Eingabe: Der Benutzer soll die Anzahl der Personen, Übernachtungen und Mahlzeiten pro Tag eingeben (Hinweis: da wir keine If Anweisungen verwenden dürfen, kann ich auch keine Bedinung stellen, dass eine Fehlermeldung kommt, wenn der Benutzer mehr als 3 Mahlzeiten eingibt: if (m > 3) { System.out.println("Fehler: Sie können maximal 3 Mahlzeiten pro Tag buchen."); }

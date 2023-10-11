@@ -1,3 +1,5 @@
+package com.judy.myapp;
+
 import java.io.IOException;
 
 /*  Funktion des Programms (ab der Main- Methode):
@@ -42,8 +44,8 @@ public class Aufgabe1 {
 	 */
 	private static int getUserInput() throws IOException {
 		int numberOfOutputs;
-		System.out.print("Please enter the number of outputs: ");
-		numberOfOutputs = System.in.read();
+		Out.print("Please enter the number of outputs: ");
+		numberOfOutputs = In.read();
 		return numberOfOutputs;
 	} 
 
@@ -54,9 +56,9 @@ public class Aufgabe1 {
 	 */
 	private static void printBasedOnUserInput(int numberOfOutputs) {
 		for (int i = 1; i <= numberOfOutputs; i++) {
-			System.out.print("Output number ");
-			System.out.print(i);
-			System.out.print(": Hello World!");
+			Out.print("Output number ");
+			Out.print(i);
+			Out.print(": Hello World!");
 		}
 	}
 }
