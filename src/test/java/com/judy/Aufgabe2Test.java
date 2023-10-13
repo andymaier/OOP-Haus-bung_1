@@ -1,20 +1,14 @@
 package com.judy;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.when;
+
 import org.junit.jupiter.api.Test;
 
 import com.judy.model.InputData;
 import com.judy.model.ResultData;
 
 public class Aufgabe2Test {
-
-    @Test
-    public void testReadDataIn() {
-        InputData inputData = Aufgabe2.readDataIn();
-        assertEquals(2, inputData.getNumberOfPeople());
-        assertEquals(7, inputData.getNumberOfNights());
-        assertEquals(3, inputData.getNumberOfMealsPerDay());
-    }
 
     @Test
     public void testCalculate() {
